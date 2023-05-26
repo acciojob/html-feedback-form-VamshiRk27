@@ -10,7 +10,39 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+	<form method="post">
+		<!--Name-->
+		<div>
+			<label for="name">Name</label>
+			<input type="text" name="name" id="name" min="3" max="50" required>
+		</div>
+		<br>
+		<!--Portfolio-->
+		<div>
+			<label for="portfolio">Portfolio</label>
+			<input type="url" name="portfolio" id="portfolio" required>
+		</div>
+		<br>
+		<!--Fav Color-->
+		<div>
+			<label for="favcolor">Fav Color</label>
+			<input type="color" name="favcolor" id="favcolor" required>
+		</div>
+		<br>
+		<!--likeness-->
+		<div>
+			<label for="likeness">Likeness</label>
+			<input type="range" name="likeness" id="likeness" required>
+		</div>
+		<br>
+		<!--Submit-->
+		<div>
+			<button type="submit">
+			Submit
+			</button>
+		</div>
+		<br>
+	</form>
 </body>
 
 </html>
